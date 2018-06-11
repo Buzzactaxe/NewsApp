@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/news_type"
+            style="@style/newsType_TextView"
+            tools:text="Technology" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                tools:text="Mar 6, 2010" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                tools:text="3:00 PM" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/newsTitle"
+            style="@style/news_title"
+            tools:text="News Title" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/author"
+        style="@style/author"
+        tools:text="Valliant Lupori" />
+
+    <View
+        android:id="@+id/divider_main_1"
+        style="@style/divider" />
+
+</LinearLayout>
