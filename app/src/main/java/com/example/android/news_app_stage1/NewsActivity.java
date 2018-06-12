@@ -88,7 +88,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
             // Get a reference to the LoaderManager, in order to interact with loaders.
             LoaderManager loaderManager = getLoaderManager();
 
-            Log.i(LOG_TAG, "LoaderManager getLoadarManager() called.");
+            Log.i(LOG_TAG, "LoaderManager getLoaderManager() called.");
 
             // Initialize the loader. Pass in the int ID constant defined above and pass in null for
             // the bundle. Pass in this activity for the LoaderCallbacks parameter (which is valid

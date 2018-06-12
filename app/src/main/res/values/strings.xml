@@ -11,8 +11,8 @@
 
     <!-- for section preferences -->
     <string name="settings_section_label">Category</string>
-    <string name="settings_section_key" translatable="false">sectionName</string>
-    <string name="settings_section_default" translatable="false">sports</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">business</string>
 
     <!-- Label for the business news [CHAR LIMIT=20] -->
     <string name="settings_business_label">business</string>
